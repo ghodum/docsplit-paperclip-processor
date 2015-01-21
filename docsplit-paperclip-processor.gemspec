@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sqlite3'
 
   # Runtime dependencies
-  s.add_runtime_dependency "paperclip", "~> 4.2.1"
+  #s.add_runtime_dependency "paperclip", "~> 4.2.1"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
